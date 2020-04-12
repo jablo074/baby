@@ -1,0 +1,73 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+body{ 
+    background-color: #528e99;
+    }
+
+.container {
+    display: block;
+    margin-top: 15%;
+    margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 500px;
+}
+
+
+.baby1{
+    z-index: 1;
+    position: absolute;
+    cursor: pointer;
+}
+
+.baby2{
+    z-index: 2;
+    margin-top: -54px;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+
+}
+
+.baby2:hover {
+    opacity: 100;
+}
+
+
+.baby3{
+    position: absolute;
+    opacity: 1;
+
+}
+
+.animate {
+    animation: invisible 0s forwards;
+}
+
+@keyframes invisible {
+    0% {opacity: 100;}
+    100% {opacity: 0;}
+}
+
+.food {
+    margin-left: -220px;
+      margin-top: -150px;
+    position: absolute;
+    opacity: 0;
+}
+
+.animate1 {
+    animation: spin 2s forwards;
+}
+
+@keyframes spin {
+    0% {opacity: 0; transform: rotate(0deg);}
+    100% {opacity: 100; transform: rotate(360deg);}
+}

@@ -1,0 +1,46 @@
+/* green square styles */
+.green {
+	width: 200px;
+	height: 200px;
+	background: green;
+}
+
+.red {
+	width: 100px;
+	height: 100px;
+	background: red;
+	position: absolute;
+	top: 200px;
+	left: 200px;
+	display: none;
+}
+
+p {
+	position: absolute;
+	top: 200px;
+	left: 350px;
+}
+
+.switch {
+	font-family: Verdana;
+	font-size: 6em;
+}
+
+.new {
+	animation: animate 0.5s forwards;
+}
+
+@keyframes animate{
+	0% { left: 350px; color: black; }
+	100% { left: 650px; color: red; }
+}
+
+.blue {
+	width: 100px;
+	height: 100px;
+	background: blue;
+	position: absolute;
+	top: 400px;
+	left: 100px;
+}
+
